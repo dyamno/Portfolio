@@ -91,6 +91,10 @@
                     margin: 0px;
                     padding: 2.5px;
                     cursor: pointer;
+                    color: white;
+                }
+                a {
+                    text-decoration: none;
                 }
                 p{
                     &::after{

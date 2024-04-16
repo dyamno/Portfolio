@@ -6,26 +6,30 @@ import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Image from 'next/image';
 import Rounded from '../../common/RoundedButton';
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 const projects = [
+  
   {
-    title: "C2 Montreal",
-    src: "c2montreal.png",
+    title: "Landing Page",
+    src: "pj-4.png",
     color: "#000000"
   },
+
   {
-    title: "Office Studio",
-    src: "officestudio.png",
+    title: "Apple Website",
+    src: "pj-3.png",
     color: "#8C8C8C"
   },
   {
     title: "Locomotive",
-    src: "locomotive.png",
-    color: "#EFE8D3"
+    src: "pj-6.png",
+    color: "#EFE8D3",
+    link: "https://dyamno.github.io/Locomotive/",
   },
   {
-    title: "Silencio",
-    src: "silencio.png",
+    title: "Sign In Page",
+    src: "pj-5.png",
     color: "#706D63"
   }
 ]
@@ -86,7 +90,8 @@ export default function Home() {
       }
     </div>
     <Rounded>
-      <p>More work</p>
+      <p>More work <AiOutlineArrowDown /></p>
+      
     </Rounded>
     <>
         <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className={styles.modalContainer}>

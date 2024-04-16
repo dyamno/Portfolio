@@ -23,7 +23,7 @@ export default function index() {
                             <Image 
                             fill={true}
                             alt={"image"}
-                            src={`/images/background.jpg`}
+                            src={`/images/ava.jpg`}
                             />
                         </div>
                         <h2>Let's work</h2>
@@ -40,38 +40,43 @@ export default function index() {
                 </div>
                 <div className={styles.nav}>
                         <Rounded>
-                            <p>info@dennissnellenberg.com</p>
+                            <p>nghiemkha5312@gmail.com</p>
                         </Rounded>
                         <Rounded>
-                            <p>+31 6 27 84 74 30</p>
+                            <p>+84 93 178 1915</p>
                         </Rounded>
                 </div>
                 <div className={styles.info}>
                     <div>
                         <span>
                             <h3>Version</h3>
-                            <p>2022 © Edition</p>
+                            <p>2024 © Edition</p>
                         </span>
-                        <span>
-                            <h3>Version</h3>
-                            <p>11:49 PM GMT+2</p>
-                        </span>
+                        
                     </div>
                     <div>
                         <span>
                             <h3>socials</h3>
                             <Magnetic>
-                                <p>Awwwards</p>
+                                <a href="https://www.facebook.com/profile.php?id=100011201235383" target="_blank">
+                                    <p>Facebook</p>
+                                </a>
                             </Magnetic>
                         </span>
                         <Magnetic>
-                            <p>Instagram</p>
+                            <a href="https://www.instagram.com/nmka.h/" target="_blank">
+                                <p>Instagram</p>
+                            </a>
                         </Magnetic>
                         <Magnetic>
-                            <p>Dribbble</p>
+                            <a href="https://www.behance.net/khakha10" target="_blank">
+                            <p>Behance</p>
+                            </a>
                         </Magnetic>
                         <Magnetic>
-                            <p>Linkedin</p>
+                        <a href="https://www.linkedin.com/in/nghi%C3%AAm-minh-kha-2428021b8/" target="_blank">
+                                <p>LinkedIn</p>
+                            </a>
                         </Magnetic>
                     </div>
                 </div>
